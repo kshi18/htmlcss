@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<!-- saved from url=(0029)http://hacktrin.com/test.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+                    <meta charset="utf-8">
+                    <title>Title of Webpage</title>
+                 
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+                    <style>
+                    h1 {
+                      font-size: 60px;
+                      text-decoration:underline;
+                    }
+                    h2 {
+                      color:red;  
+                      font-family: Arial;
+                    }
+                    .hello {
+                        font-size: 100px;
+                    }
+                    .blue{
+                        color:blue;
+                    }
+                    #hello2 {
+                        color: green;
+                    }
+                    </style>
+
+
+
+                </head>
+                <body>
+                    <div class="container">
+                        <h1 class="hello blue">Hello, World!</h1>
+                        <h2 class="blue" id="hello2">Hello, World2!</h2>
+                    </div>
+                    <input type="text" id="myText" value="Some text...">
+                    <button onclick="myFunction()" class="btn btn-primary">Try it</button>
+                    <p id="demo"></p>
+                    <script>
+                    function myFunction() {
+                        var x = document.getElementById("myText").value;
+                        document.getElementById("demo").innerHTML = x;
+                        alert(x);
+                    }
+                    </script>
+                
+        </body></html>
